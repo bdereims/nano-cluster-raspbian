@@ -1,0 +1,15 @@
+auto lo
+auto eth0
+auto eth0.${VLAN_ID}
+auto wlan0 
+
+iface lo inet loopback
+
+iface eth0.${VLAN_ID} inet static
+	address ${VLAN_SUBNET}.${i}/24
+        vlan-raw-device eth0
+
+iface eth0 inet dhcp 
+
+iface wlan0 inet static
+	address ${WIFI_SUBNET}.${i}/24

@@ -1,0 +1,8 @@
+gpu_mem=16
+arm_freq=1350
+core_freq=500
+over_voltage=4
+disable_splash=1
+#force_turbo=1 #Voids Warranty! (uncomment to avoid CPU scaling down to 600Mhz)
+#boot_delay=1 #helps to avoid sdcard corruption when force_turbo is enabled.
+#sdram_freq=500 #uncomment to test. Works only with some boards.

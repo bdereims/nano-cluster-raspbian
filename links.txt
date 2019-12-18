@@ -1,0 +1,2 @@
+https://www.raspberrypi.org/documentation/linux/kernel/building.md
+https://www.tal.org/tutorials/raspberry-pi3-build-64-bit-kernel

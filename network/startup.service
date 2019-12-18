@@ -1,0 +1,7 @@
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/etc/startup.sh
+
+[Install]
+WantedBy=multi-user.target

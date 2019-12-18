@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: mynginx
+  namespace: nginx
+spec:
+  rules:
+  - host: rpi3-1 
+    http:
+      paths:
+      - path: /mynginx
+        backend:
+          serviceName: mynginx 
+          servicePort: 80 

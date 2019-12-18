@@ -1,0 +1,6 @@
+init_config:
+
+instances:
+    - url: https://localhost:9000/haproxy_stats
+      username: brice 
+      password: bricethegi@nt

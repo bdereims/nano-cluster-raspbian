@@ -1,0 +1,10 @@
+[Match]
+Name=eth0
+
+[Network]
+DHCP=no
+DNSSEC=no
+Address=10.0.0.3/24
+Gateway=10.0.0.1
+DNS=10.0.0.3
+VLAN=eth0.2

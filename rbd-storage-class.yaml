@@ -1,0 +1,17 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast
+provisioner: kubernetes.io/rbd
+parameters:
+  monitors: 10.0.0.1:6789,10.0.0.2:6789,10.0.0.3:6789
+  adminId: admin 
+  adminSecretName: ceph-secret
+  adminSecretNamespace: kube-system
+  pool: rbd 
+  userId: admin 
+  userSecretName: ceph-secret-user
+  userSecretNamespace: default
+  fsType: ext4
+  imageFormat: "2"
+  imageFeatures: "layering"
