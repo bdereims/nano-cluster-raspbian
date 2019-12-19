@@ -1,6 +1,7 @@
-# nano-cluster
+# nano-cluster-raspbian
 
-![nano-cluster](https://github.com/bdereims/nano-cluster/blob/master/img/nano-cluster.png)
+![cluster](https://github.com/bdereims/nano-cluster-raspbian/blob/master/img/cluster.png)
 
-bootstrap with : `curl -fsSL https://raw.githubusercontent.com/bdereims/nano-cluster/master/bootstrap.sh -o - | bash`  
-or : `curl -fsSL https://bit.ly/2Zd0ztQ -o - | bash`  
+![console](https://github.com/bdereims/nano-cluster-raspbian/blob/master/img/console.png)
+
+Scripts to install and maintain a nano cluster with latest release of Kubernetes.
